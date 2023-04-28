@@ -1,4 +1,7 @@
 # Installation des packages -----
+if(!require("writexl")){
+  install.packages("writexl")
+}
 if(!require("dplyr")){
   install.packages("dplyr")
 }

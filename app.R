@@ -1,10 +1,10 @@
 #' Cette application permet de calculer toutes les matrices dont on a besoin
 #'lors de la projection des prestations des bénéficiaire
+source("Functions.R")
 
 library(shiny)
 library(bs4Dash)
 library(shinybusy)
-source("Functions.R")
 library(shinyalert)
 library(thematic)
 
